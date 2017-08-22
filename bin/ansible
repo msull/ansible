@@ -60,6 +60,8 @@ class LastResort(object):
 
 if __name__ == '__main__':
 
+    import pdb;pdb.set_trace()
+
     display = LastResort()
     cli = None
     me = os.path.basename(sys.argv[0])
